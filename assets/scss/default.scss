@@ -1,0 +1,106 @@
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+html {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  // font-family: "Quicksand", sans-serif;
+}
+.career-details {
+  ol,
+  ul {
+    @apply ml-5 list-disc;
+  }
+}
+.carousel__pagination-button {
+  padding: 18px !important;
+}
+.carousel__pagination-button::after {
+  background-color: white !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 6px !important;
+}
+.carousel__pagination-button--active::after {
+  background-color: #fdb21d !important;
+}
+.container {
+  padding: 0 20px !important;
+  width: 100% !important;
+  @apply mx-auto #{!important};
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 32px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 64px !important;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 80px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1366px !important;
+  }
+}
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #28323b;
+  position: absolute;
+  animation: up 5s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+
+  @media only screen and (max-width: 700px) {
+    animation: up-small 5s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+  }
+}
+@keyframes up {
+  0% {
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    bottom: 200px;
+  }
+  100% {
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@keyframes up-small {
+  0% {
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    bottom: 150px;
+  }
+  100% {
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.alert_error {
+  background-color: #791714;
+}
