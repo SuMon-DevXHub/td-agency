@@ -627,17 +627,17 @@ const generateBalls = () => {
   animation: twitter 6s ease-in-out;
   animation-iteration-count: infinite;
 }
-@keyframes twitter {
-  0% {
-    background-image: url("~/assets/img/icons/TwitterIcon/twitter.svg");
-  }
-  50% {
-    background-image: url("~/assets/img/icons/TwitterIcon/X_logo.svg");
-  }
-  100% {
-    background-image: url("~/assets/img/icons/TwitterIcon/twitter.svg");
-  }
-}
+// @keyframes twitter {
+//   0% {
+//     background-image: url("~/assets/img/icons/TwitterIcon/twitter.svg");
+//   }
+//   50% {
+//     background-image: url("~/assets/img/icons/TwitterIcon/X_logo.svg");
+//   }
+//   100% {
+//     background-image: url("~/assets/img/icons/TwitterIcon/twitter.svg");
+//   }
+// }
 .nowInViewPort {
   @apply transition-all ease-in duration-1000 opacity-100;
 }
