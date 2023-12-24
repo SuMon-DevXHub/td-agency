@@ -665,7 +665,7 @@ const works = ref([
         </p>
         <NuxtLink
           to="/contact-us"
-          aria-label="Show me more"
+          aria-label="Contact us"
           class="my-10 md:mt-26 md:mb-0 flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap"
         >
           <span>Contact Us</span>
@@ -944,7 +944,7 @@ const works = ref([
           </p>
           <NuxtLink
             to="/contact-us"
-            aria-label="Show me more"
+            aria-label="Contact us"
             class="my-10 md:mt-26 md:mb-0 flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap"
           >
             <span>Contact Us</span>
@@ -1412,7 +1412,7 @@ const works = ref([
         </h3>
         <NuxtLink
           to="/contact-us"
-          aria-label="Show me more"
+          aria-label="Free Proposal"
           class="my-10 flex justify-center items-center w-fit px-[30px] h-14 xl:h-[60px] bg-[#05FFF5] font-bold text-base lg:text-xl rounded-sm whitespace-nowrap"
         >
           <span class="text-[#1A1139]">Get a free proposal</span>

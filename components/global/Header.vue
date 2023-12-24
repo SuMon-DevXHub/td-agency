@@ -271,7 +271,7 @@ const setCurrentNestedMenu = (activeNested) => {
           <li>
             <a
               href="tel:+8801318-116458"
-              aria-label="Show me more"
+              aria-label="Phone Number"
               class="flex justify-center items-center px-[20px] py-[14px] h-14 xl:h-[56px] border border-primary font-bold text-[#FFF] text-lg rounded-sm whitespace-nowrap"
             >
               <span>+880 1318 116458</span>
@@ -280,7 +280,7 @@ const setCurrentNestedMenu = (activeNested) => {
           <li>
             <NuxtLink
               to="/contact-us"
-              aria-label="Show me more"
+              aria-label="Get a quote"
               class="flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap"
             >
               <span>Get a Quote</span>

@@ -233,7 +233,7 @@ const generateBalls = () => {
               <div class="">
                 <a
                   href="tel:+8801318-116458"
-                  aria-label="Show me more"
+                  aria-label="Phone Number"
                   class="flex justify-center items-center px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap"
                 >
                   <span>+880 1318 116458</span>
@@ -507,7 +507,7 @@ const generateBalls = () => {
                 <div class="self-center">
                   <a
                     href="tel:+8801318-116458"
-                    aria-label="Show me more"
+                    aria-label="Phone Number"
                     class="flex justify-center items-center px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap w-fit"
                   >
                     <span>+880 1318 116458</span>
