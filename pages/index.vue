@@ -634,6 +634,7 @@ const works = ref([
 
     <!-- Start about section -->
     <section
+      id="about-us"
       class="container-fluid grid grid-cols-1 md:grid-cols-2 md:gap-1 lg:gap-10 2xl:gap-20 items-center pt-16 md:pt-[180px] lg:pt-[200px]"
     >
       <div
@@ -652,7 +653,7 @@ const works = ref([
         >
           About Us
         </h3>
-        <p
+        <pp
           class="text-[#F0F0F0] text-lg md:text-xl lg:text-2xl mt-4 font-[300]"
         >
           Welcome to Trust Dev Agency, your key to unprecedented growth! Our
@@ -662,7 +663,7 @@ const works = ref([
           settle for ordinary; choose TrustDev for extraordinary results.
           Schedule a consultation today, and let us propel your business into a
           success story! Act now to unleash your brand's full potential.
-        </p>
+        </pp>
         <NuxtLink
           to="/contact-us"
           aria-label="Contact us"
@@ -1204,6 +1205,7 @@ const works = ref([
 
     <!-- Start Data driven -->
     <section
+      id="results"
       class="pl-5 w-full md:pl-20 lg:pl-[60px] dx:pl-[7%] 2dx:pl-[80px] 3dl:pl-[10%] 3xl:pl-[150px] 4xl:pl-[12%] py-14 xl:py-[172px] bg-[#0D0835] mt-14 md:mt-[200px] grid grid-cols-1 lg:grid-cols-6 2dx:grid-cols-12 items-center lg:gap-x-[50px] 2dx:gap-x-[0px] justify-items-end gap-y-13"
     >
       <div class="flex flex-col col-span-2 2dx:col-span-4 pr-4">
@@ -1242,7 +1244,7 @@ const works = ref([
     <!-- End Data driven -->
 
     <!-- Start Slider of digital marketing page -->
-    <section id="success-stories">
+    <section id="portfolio">
       <div
         id="success-stories"
         class="px-5 md:pr-0 w-full md:pl-20 lg:pl-[60px] dx:pl-[7%] 2dx:pl-[80px] 3dl:pl-[10%] 3xl:pl-[150px] 4xl:pl-[12%] pt-16 md:pt-[180px] lg:pt-[200px]"

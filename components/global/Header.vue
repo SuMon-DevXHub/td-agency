@@ -263,11 +263,11 @@ const setCurrentNestedMenu = (activeNested) => {
           </li>
 
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/services">Services</NuxtLink></li>
-          <li><NuxtLink to="/results">Results</NuxtLink></li>
-          <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
-          <li><NuxtLink to="/reviews">Reviews</NuxtLink></li>
-          <li><NuxtLink to="/about">About</NuxtLink></li>
+          <li><NuxtLink to="/#our-services">Services</NuxtLink></li>
+          <li><NuxtLink to="/#results">Results</NuxtLink></li>
+          <li><NuxtLink to="/#portfolio">Portfolio</NuxtLink></li>
+          <li><NuxtLink to="/">Reviews</NuxtLink></li>
+          <li><NuxtLink to="/#about-us">About</NuxtLink></li>
           <li>
             <a
               href="tel:+8801318-116458"
@@ -444,7 +444,7 @@ const setCurrentNestedMenu = (activeNested) => {
               </li>
               <li class="py-4 border-b-[0.5px] border-[#FDB21D]">
                 <NuxtLink
-                  to="/services"
+                  to="/#our-services"
                   class="text-xl font-medium"
                   @click.native="setMobileMenu(false)"
                   >Services</NuxtLink
@@ -452,7 +452,7 @@ const setCurrentNestedMenu = (activeNested) => {
               </li>
               <li class="py-4 border-b-[0.5px] border-[#FDB21D]">
                 <NuxtLink
-                  to="/results"
+                  to="/#results"
                   class="text-xl font-medium"
                   @click.native="setMobileMenu(false)"
                   >Results</NuxtLink
@@ -460,7 +460,7 @@ const setCurrentNestedMenu = (activeNested) => {
               </li>
               <li class="py-4 border-b-[0.5px] border-[#FDB21D]">
                 <NuxtLink
-                  to="/portfolio"
+                  to="/#portfolio"
                   class="text-xl font-medium"
                   @click.native="setMobileMenu(false)"
                   >Portfolio</NuxtLink
@@ -468,7 +468,7 @@ const setCurrentNestedMenu = (activeNested) => {
               </li>
               <li class="py-4 border-b-[0.5px] border-[#FDB21D]">
                 <NuxtLink
-                  to="/reviews"
+                  to="/"
                   class="text-xl font-medium"
                   @click.native="setMobileMenu(false)"
                   >Reviews</NuxtLink
@@ -476,7 +476,7 @@ const setCurrentNestedMenu = (activeNested) => {
               </li>
               <li class="py-4 border-[#FDB21D]">
                 <NuxtLink
-                  to="/about"
+                  to="/#about-us"
                   class="text-xl font-medium"
                   @click.native="setMobileMenu(false)"
                   >About</NuxtLink
