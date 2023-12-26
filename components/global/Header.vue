@@ -268,7 +268,16 @@ const showModal = ref(false);
           <li><NuxtLink to="/#our-services">Services</NuxtLink></li>
           <li><NuxtLink to="/#results">Results</NuxtLink></li>
           <li><NuxtLink to="/#portfolio">Portfolio</NuxtLink></li>
-          <li><NuxtLink to="/">Reviews</NuxtLink></li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCPsJ562s-4tVlQ7gH2h5-XA"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="DEVxHUB YouTube Channel"
+              class="text-xl font-medium"
+              >Reviews</a
+            >
+          </li>
           <li><NuxtLink to="/#about-us">About</NuxtLink></li>
           <li>
             <a
@@ -473,11 +482,13 @@ const showModal = ref(false);
                 >
               </li>
               <li class="py-4 border-b-[0.5px] border-[#FDB21D]">
-                <NuxtLink
-                  to="/"
+                <a
+                  href="https://www.youtube.com/channel/UCPsJ562s-4tVlQ7gH2h5-XA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="DEVxHUB YouTube Channel"
                   class="text-xl font-medium"
-                  @click.native="setMobileMenu(false)"
-                  >Reviews</NuxtLink
+                  >Reviews</a
                 >
               </li>
               <li class="py-4 border-[#FDB21D]">
