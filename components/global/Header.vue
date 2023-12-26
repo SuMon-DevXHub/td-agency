@@ -532,16 +532,27 @@ const showModal = ref(false);
             aria-modal="true"
             aria-labelledby="modal-headline"
           >
-            <div>
+            <div class="bg-primary font-bold text-[#1A1139] flex flex-col p-5">
+              <div
+                class="self-end cursor-pointer"
+                @click="showModal = !showModal"
+              >
+                <ClientOnly>
+                  <fa class="!h-8 w-8" :icon="['fas', 'times']" />
+                </ClientOnly>
+              </div>
               <a
                 href="tel:+8801318-116458"
                 aria-label="Phone Number"
-                class="flex justify-center items-center px-[20px] py-[14px] h-14 xl:h-[56px] border border-primary font-bold text-[#FFF] text-lg rounded-sm whitespace-nowrap bg-gray-400"
+                class="flex justify-center items-center space-x-2 px-[20px] pb-[14px] h-14 xl:h-[56px] border border-primary text-lg rounded-sm whitespace-nowrap"
               >
+                <ClientOnly>
+                  <fa class="!h-6 w-6" :icon="['fas', 'phone']" />
+                </ClientOnly>
                 <span>+880 1318 116458</span>
               </a>
             </div>
-            <div class="bg-gray-200 px-4 py-3 text-right">
+            <div class="bg-gray-200 px-4 py-3 text-right hidden">
               <button
                 type="button"
                 class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 mr-2"
