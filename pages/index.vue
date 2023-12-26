@@ -2,11 +2,11 @@
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 
-const title = "Digital Marketing | DEVxHUB";
+const title = "Digital Marketing | Trusts Dev Agency";
 const intro = {
   title: "Unlock Your Brand's Potential with Digital Marketing Mastery",
   description:
-    "Experience a transformative digital journey with DEVxHUB's Digital Marketing services. Our seasoned team of digital marketers is dedicated to crafting customized strategies that will not only enhance your brand's online presence but also boost engagement and conversions. In today's competitive digital landscape, effective marketing is paramount, and with our tailored solutions, you can fortify your online reach, interact meaningfully with your target audience, and gain a significant competitive edge. Whether you're seeking to conquer search engine rankings through SEO, connect with your audience on social media, craft compelling content, or leverage the power of pay-per-click (PPC) advertising, we've got you covered. Immerse yourself in innovation, dependability, and exponential growth, and let us steer your brand towards digital excellence.",
+    "Experience a transformative digital journey with Trusts Dev Agency's Digital Marketing services. Our seasoned team of digital marketers is dedicated to crafting customized strategies that will not only enhance your brand's online presence but also boost engagement and conversions. In today's competitive digital landscape, effective marketing is paramount, and with our tailored solutions, you can fortify your online reach, interact meaningfully with your target audience, and gain a significant competitive edge. Whether you're seeking to conquer search engine rankings through SEO, connect with your audience on social media, craft compelling content, or leverage the power of pay-per-click (PPC) advertising, we've got you covered. Immerse yourself in innovation, dependability, and exponential growth, and let us steer your brand towards digital excellence.",
 };
 useSeoMeta({
   title: () => title,
@@ -59,7 +59,7 @@ const numbers = ref([
     percentageColor: "#1AE6D5",
     title: "Retention Rate",
     description:
-      "Your business is in safe hands at DEVxHUB. While the average retention rate for marketing agencies hovers around 40-50%, ours are over 90% who stay with us over the long run because of our results and relationships.",
+      "Your business is in safe hands at Trusts Dev Agency. While the average retention rate for marketing agencies hovers around 40-50%, ours are over 90% who stay with us over the long run because of our results and relationships.",
     background:
       "linear-gradient(145deg, rgba(19, 23, 35, 0.20) 4%, rgba(0, 212, 99, 0.20) 100%)",
   },
@@ -142,7 +142,7 @@ const whySelect = ref([
     src: "/services/digital-mkt/select-1.svg",
     title: "Client-centric approach",
     description:
-      "At DEVxHUB, the professional team carefully examines client's individual marketplace. They are dedicated to client's individual goals, profits and advantages.",
+      "At Trusts Dev Agency, the professional team carefully examines client's individual marketplace. They are dedicated to client's individual goals, profits and advantages.",
     background:
       "linear-gradient(145deg, rgba(19, 23, 35, 0.20) 4%, rgba(253, 178, 29, 0.20) 100%)",
   },
@@ -160,7 +160,7 @@ const whySelect = ref([
     src: "/services/digital-mkt/select-3.svg",
     title: "Reliability",
     description:
-      "DEVxHUB has been offering digital marketing, video editing & animation, graphic design & website design services for a long time. 99% of clients are satisfied with us.",
+      "Trusts Dev Agency has been offering digital marketing, video editing & animation, graphic design & website design services for a long time. 99% of clients are satisfied with us.",
     background:
       "linear-gradient(145deg, rgba(19, 23, 35, 0.20) 4%, rgba(253, 63, 1, 0.20) 100%)",
   },
@@ -169,7 +169,7 @@ const whySelect = ref([
     src: "/services/digital-mkt/select-4.svg",
     title: "Unique, Fresh and Optimized",
     description:
-      "DEVxHUB has some special and unique features that can help you stand out from the crowd. As a result, you can rely on our innovative and optimized design to outperform your competition.",
+      "Trusts Dev Agency has some special and unique features that can help you stand out from the crowd. As a result, you can rely on our innovative and optimized design to outperform your competition.",
     background:
       "linear-gradient(145deg, rgba(19, 23, 35, 0.20) 4%, rgba(135, 110, 254, 0.20) 100%)",
   },
@@ -345,7 +345,7 @@ const successStories = ref([
     id: 1,
     title: "INCREASE IN GOOGLE ADS REVENUE",
     description:
-      "Compared to other platforms / Companies, Google Ads can yield a 337% revenue increase, significantly outperforming competitors in digital marketing effectiveness and ROI by DEVxHUB",
+      "Compared to other platforms / Companies, Google Ads can yield a 337% revenue increase, significantly outperforming competitors in digital marketing effectiveness and ROI by Trusts Dev Agency",
     image: "",
     successRate: "337",
     backgroundColor:
@@ -356,7 +356,7 @@ const successStories = ref([
     id: 2,
     title: "INCREASE IN SALES",
     description:
-      "Compared to other platforms or companies, a comprehensive marketing strategy can yield a 102% increase in sales, significantly outperforming competitors in effectiveness and ROI, as reported by DEVxHUB.",
+      "Compared to other platforms or companies, a comprehensive marketing strategy can yield a 102% increase in sales, significantly outperforming competitors in effectiveness and ROI, as reported by Trusts Dev Agency.",
     image: "",
     successRate: "102",
     backgroundColor:
@@ -367,7 +367,7 @@ const successStories = ref([
     id: 3,
     title: "INCREASE IN CONVERSION RATE",
     description:
-      "Implementing a robust marketing strategy can lead to a 14% boost in conversion rates, outshining competitor platforms in efficiency and return on investment, according to DEVxHUB.",
+      "Implementing a robust marketing strategy can lead to a 14% boost in conversion rates, outshining competitor platforms in efficiency and return on investment, according to Trusts Dev Agency.",
     image: "",
     successRate: "14",
     backgroundColor:
@@ -378,7 +378,7 @@ const successStories = ref([
     id: 4,
     title: "Retail Sales Revival",
     description:
-      "A retail client faced declining online sales until our targeted marketing strategy resulted in a 52% increase in sales. This dramatic turnaround, in line with DEVxHUB's findings, underscores our proficiency in boosting sales through effective digital marketing.",
+      "A retail client faced declining online sales until our targeted marketing strategy resulted in a 52% increase in sales. This dramatic turnaround, in line with Trusts Dev Agency's findings, underscores our proficiency in boosting sales through effective digital marketing.",
     image: "",
     successRate: "52",
     backgroundColor:
@@ -389,7 +389,7 @@ const successStories = ref([
     id: 5,
     title: "Tech Startup's Revenue Surge",
     description:
-      "For a burgeoning tech company, our comprehensive marketing campaign led to a 153% revenue increase. This remarkable achievement, mirroring DEVxHUB's data, demonstrates our expertise in driving revenue growth using cutting-edge digital strategies.",
+      "For a burgeoning tech company, our comprehensive marketing campaign led to a 153% revenue increase. This remarkable achievement, mirroring Trusts Dev Agency's data, demonstrates our expertise in driving revenue growth using cutting-edge digital strategies.",
     image: "",
     successRate: "153",
     backgroundColor:
@@ -400,7 +400,7 @@ const successStories = ref([
     id: 6,
     title: "Service Sector Conversion Success",
     description:
-      "A small service-oriented business experienced a 20% jump in conversion rates following our marketing intervention. This significant improvement, reflecting DEVxHUB's research, highlights our ability to optimize conversion rates through targeted marketing tactics.",
+      "A small service-oriented business experienced a 20% jump in conversion rates following our marketing intervention. This significant improvement, reflecting Trusts Dev Agency's research, highlights our ability to optimize conversion rates through targeted marketing tactics.",
     image: "",
     successRate: "20",
     backgroundColor:
@@ -411,7 +411,7 @@ const successStories = ref([
     id: 7,
     title: "E-commerce Advertising Triumph",
     description:
-      "An e-commerce client leveraged our strategic Google Ads approach, resulting in significant growth in traffic and sales. This success story aligns with DEVxHUB's insights on Google Ads' effectiveness, showcasing our skill in using targeted ads to enhance online visibility and profitability.",
+      "An e-commerce client leveraged our strategic Google Ads approach, resulting in significant growth in traffic and sales. This success story aligns with Trusts Dev Agency's insights on Google Ads' effectiveness, showcasing our skill in using targeted ads to enhance online visibility and profitability.",
     image: "",
     successRate: "30",
     backgroundColor:
@@ -1084,7 +1084,7 @@ const works = ref([
         <h3
           class="text-3xl lg:text-4xl xl:text-5xl font-medium !leading-[62px] text-white text-center"
         >
-          Why Select <span class="text-primary">DEVxHUB?</span>
+          Why Select <span class="text-primary">Trusts Dev Agency?</span>
         </h3>
       </div>
 
