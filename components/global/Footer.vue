@@ -288,7 +288,7 @@ const generateBalls = () => {
                   >
                     <div>
                       <p class="text-center">
-                        © 2023.
+                        © {{ new Date().getFullYear() }}.
                         <span class="text-primary text-center"
                           >Trusts Dev Agency</span
                         >
@@ -300,7 +300,7 @@ const generateBalls = () => {
                       class="flex w-full justify-between items-center space-x-2 md:space-x-1 xl:space-x-2 mt-9"
                     >
                       <a
-                        href="https://www.facebook.com/devxhubcom/"
+                        href="https://www.facebook.com/trustdevagency/"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="DEVxHUB Facebook Page"
@@ -309,18 +309,18 @@ const generateBalls = () => {
                           src="/home/footer-social/facebook.png"
                           alt="DEVxHUB Facebook Icon"
                       /></a>
-                      <a
+                      <!-- <a
                         href="https://www.linkedin.com/company/devxhubcom/"
                         rel="noopener noreferrer"
                         aria-label="DEVxHUB LinkedIn Account"
                         target="_blank"
                         ><img
-                          class="social-icons"
+                          class="social-icons hidden"
                           src="/home/footer-social/linkedin.png"
                           alt="DEVxHUB LinkedIn Icon"
-                      /></a>
+                      /></a> -->
                       <a
-                        href="https://www.instagram.com/devxhubcom/"
+                        href="https://www.instagram.com/trustdevagency/"
                         rel="noopener noreferrer"
                         aria-label="DEVxHUB Instagram Account"
                         target="_blank"
@@ -331,7 +331,7 @@ const generateBalls = () => {
                       /></a>
 
                       <a
-                        href="http://youtube.com/@devxhub"
+                        href="https://www.youtube.com/channel/UCPsJ562s-4tVlQ7gH2h5-XA"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="DEVxHUB YouTube Channel"
@@ -346,7 +346,9 @@ const generateBalls = () => {
               </div>
             </div>
 
-            <div class="text-[#E2DDF0] text-center bg-[#120736] py-11">
+            <div
+              class="text-[#E2DDF0] text-center bg-[#120736] py-11 container-fluid"
+            >
               <p>
                 This site is protected by reCAPTCHA and the Google
                 <span class="font-semibold text-white">Privacy Policy</span> and
@@ -364,6 +366,17 @@ const generateBalls = () => {
                 >
                 and
                 <span class="font-semibold text-white">Privacy Policy</span>
+              </p>
+
+              <p class="text-center mt-5">
+                Develop by<NuxtLink
+                  to="https://devxhub.com"
+                  target="_blank"
+                  class="cursor-pointer"
+                  ><span class="text-primary text-center font-bold">
+                    Developer eXperience Hub</span
+                  ></NuxtLink
+                >
               </p>
             </div>
 
@@ -530,7 +543,7 @@ const generateBalls = () => {
                 >
                   <div>
                     <p class="text-center">
-                      © 2023.
+                      © {{ new Date().getFullYear() }}.
                       <span class="text-primary text-center"
                         >Trusts Dev Agency</span
                       >
@@ -542,7 +555,7 @@ const generateBalls = () => {
                     class="flex w-full justify-center items-center space-x-2 mt-9"
                   >
                     <a
-                      href="https://www.facebook.com/devxhubcom/"
+                      href="https://www.facebook.com/trustdevagency/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="DEVxHUB Facebook Page"
@@ -551,7 +564,7 @@ const generateBalls = () => {
                         src="/home/footer-social/facebook.png"
                         alt="DEVxHUB Facebook Icon"
                     /></a>
-                    <a
+                    <!-- <a
                       href="https://www.linkedin.com/company/devxhubcom/"
                       rel="noopener noreferrer"
                       aria-label="DEVxHUB LinkedIn Account"
@@ -560,9 +573,9 @@ const generateBalls = () => {
                         class="social-icons"
                         src="/home/footer-social/linkedin.png"
                         alt="DEVxHUB LinkedIn Icon"
-                    /></a>
+                    /></a> -->
                     <a
-                      href="https://www.instagram.com/devxhubcom/"
+                      href="https://www.instagram.com/trustdevagency/"
                       rel="noopener noreferrer"
                       aria-label="DEVxHUB Instagram Account"
                       target="_blank"
@@ -573,7 +586,7 @@ const generateBalls = () => {
                     /></a>
 
                     <a
-                      href="http://youtube.com/@devxhub"
+                      href="https://www.youtube.com/channel/UCPsJ562s-4tVlQ7gH2h5-XA"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="DEVxHUB YouTube Channel"
@@ -599,7 +612,7 @@ const generateBalls = () => {
                   <span class="font-semibold text-white">Terms of Service</span>
                   apply.
                 </p>
-                <p>
+                <p class="my-4">
                   This website uses cookies. We use cookies to analyse website
                   traffic and optimize your website experience. By using this
                   website, your data will be aggregated with all other user
@@ -611,6 +624,17 @@ const generateBalls = () => {
                   >
                   and
                   <span class="font-semibold text-white">Privacy Policy</span>
+                </p>
+
+                <p class="text-center mt-5">
+                  Develop by<NuxtLink
+                    to="https://devxhub.com"
+                    target="_blank"
+                    class="cursor-pointer"
+                    ><span class="text-primary text-center font-bold">
+                      Developer eXperience Hub</span
+                    ></NuxtLink
+                  >
                 </p>
               </div>
             </div>
