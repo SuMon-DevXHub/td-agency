@@ -1,6 +1,8 @@
 <script setup>
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+import { storeToRefs } from "pinia";
+import { useHeaderStore } from "~/stores/header";
 
 const title = "Digital Marketing | Trusts Dev Agency";
 const intro = {
@@ -14,6 +16,8 @@ useSeoMeta({
   description: () => intro.description.slice(0, 300),
   ogDescription: () => intro.description.slice(0, 300),
 });
+const { isShowModal } = storeToRefs(useHeaderStore());
+const { setIsShowModal } = useHeaderStore();
 const router = useRouter();
 
 const services = ref([
@@ -1412,13 +1416,14 @@ const works = ref([
         >
           Ready to boost clicks?
         </h3>
-        <NuxtLink
-          to="/contact-us"
-          aria-label="Free Proposal"
-          class="my-10 flex justify-center items-center w-fit px-[30px] h-14 xl:h-[60px] bg-[#05FFF5] font-bold text-base lg:text-xl rounded-sm whitespace-nowrap"
+        <div
+          @click="setIsShowModal(!isShowModal)"
+          class="my-10 flex justify-center items-center w-fit px-[30px] h-14 xl:h-[60px] bg-[#05FFF5] font-bold text-base lg:text-xl rounded-sm whitespace-nowrap cursor-pointer"
         >
+          <!-- <NuxtLink to="/contact-us" aria-label="Free Proposal"> -->
           <span class="text-[#1A1139]">Get a free proposal</span>
-        </NuxtLink>
+          <!-- </NuxtLink> -->
+        </div>
       </div>
     </section>
     <!-- End Choose how you want -->

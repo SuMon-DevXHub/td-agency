@@ -4,8 +4,8 @@ import closeIcon from "~/assets/img/icons/close.svg";
 import { storeToRefs } from "pinia";
 import { useHeaderStore } from "~/stores/header";
 // pinia
-const { isMobileMenu } = storeToRefs(useHeaderStore());
-const { setMobileMenu } = useHeaderStore();
+const { isMobileMenu, isShowModal } = storeToRefs(useHeaderStore());
+const { setMobileMenu, setIsShowModal } = useHeaderStore();
 const route = useRoute();
 
 const company = [
@@ -140,8 +140,6 @@ const setCurrentNestedMenu = (activeNested) => {
     currentNestedMenu.value = null;
   }
 };
-
-const showModal = ref(false);
 </script>
 
 <template>
@@ -288,7 +286,7 @@ const showModal = ref(false);
               <span>+880 1318 116458</span>
             </a>
           </li>
-          <li @click="showModal = !showModal">
+          <li @click="setIsShowModal(!isShowModal)">
             <div
               class="flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap cursor-pointer"
             >
@@ -525,7 +523,7 @@ const showModal = ref(false);
       <!-- <BaseModal /> -->
 
       <div
-        v-if="showModal"
+        v-if="isShowModal"
         class="fixed z-10 overflow-y-auto top-0 w-full left-0"
       >
         <div
@@ -546,7 +544,7 @@ const showModal = ref(false);
             <div class="bg-primary font-bold text-[#1A1139] flex flex-col p-5">
               <div
                 class="self-end cursor-pointer"
-                @click="showModal = !showModal"
+                @click="setIsShowModal(!isShowModal)"
               >
                 <ClientOnly>
                   <fa class="!h-8 w-8" :icon="['fas', 'times']" />
@@ -567,7 +565,7 @@ const showModal = ref(false);
               <button
                 type="button"
                 class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 mr-2"
-                @click="showModal = !showModal"
+                @click="setIsShowModal(!isShowModal)"
               >
                 <i class="fas fa-times"></i> Cancel
               </button>

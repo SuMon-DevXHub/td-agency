@@ -272,11 +272,20 @@ const generateBalls = () => {
                     class="flex flex-col text-center md:text-left space-y-2.5 md:space-y-4 text-xl text-white font-semibold pr-20"
                   >
                     <div><NuxtLink to="/">Home</NuxtLink></div>
-                    <div><NuxtLink to="/services">Services</NuxtLink></div>
-                    <div><NuxtLink to="/results">Results</NuxtLink></div>
-                    <div><NuxtLink to="/portfolio">Portfolio</NuxtLink></div>
-                    <div><NuxtLink to="/reviews">Reviews</NuxtLink></div>
-                    <div><NuxtLink to="/about">About</NuxtLink></div>
+                    <div><NuxtLink to="/#our-services">Services</NuxtLink></div>
+                    <div><NuxtLink to="/#results">Results</NuxtLink></div>
+                    <div><NuxtLink to="/#portfolio">Portfolio</NuxtLink></div>
+                    <div>
+                      <a
+                        href="https://www.youtube.com/channel/UCPsJ562s-4tVlQ7gH2h5-XA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="DEVxHUB YouTube Channel"
+                        class=""
+                        >Reviews</a
+                      >
+                    </div>
+                    <div><NuxtLink to="/#about-us">About</NuxtLink></div>
                   </div>
 
                   <div
@@ -369,7 +378,7 @@ const generateBalls = () => {
               </p>
 
               <p class="text-center mt-5">
-                Develop by<NuxtLink
+                Developed by<NuxtLink
                   to="https://devxhub.com"
                   target="_blank"
                   class="cursor-pointer"
@@ -531,11 +540,20 @@ const generateBalls = () => {
                   class="self-center flex flex-col text-center space-y-2.5 md:space-y-4 text-xl text-white font-semibold"
                 >
                   <div><NuxtLink to="/">Home</NuxtLink></div>
-                  <div><NuxtLink to="/services">Services</NuxtLink></div>
-                  <div><NuxtLink to="/results">Results</NuxtLink></div>
-                  <div><NuxtLink to="/portfolio">Portfolio</NuxtLink></div>
-                  <div><NuxtLink to="/reviews">Reviews</NuxtLink></div>
-                  <div><NuxtLink to="/about">About</NuxtLink></div>
+                  <div><NuxtLink to="/#our-services">Services</NuxtLink></div>
+                  <div><NuxtLink to="/#results">Results</NuxtLink></div>
+                  <div><NuxtLink to="/#portfolio">Portfolio</NuxtLink></div>
+                  <div>
+                    <a
+                      href="https://www.youtube.com/channel/UCPsJ562s-4tVlQ7gH2h5-XA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="DEVxHUB YouTube Channel"
+                      class=""
+                      >Reviews</a
+                    >
+                  </div>
+                  <div><NuxtLink to="/#about-us">About</NuxtLink></div>
                 </div>
 
                 <div
@@ -627,7 +645,7 @@ const generateBalls = () => {
                 </p>
 
                 <p class="text-center mt-5">
-                  Develop by<NuxtLink
+                  Developed by<NuxtLink
                     to="https://devxhub.com"
                     target="_blank"
                     class="cursor-pointer"

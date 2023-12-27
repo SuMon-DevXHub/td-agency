@@ -1,4 +1,10 @@
 <script setup>
+import { storeToRefs } from "pinia";
+import { useHeaderStore } from "~/stores/header";
+// pinia
+const { isShowModal } = storeToRefs(useHeaderStore());
+const { setIsShowModal } = useHeaderStore();
+
 const route = useRoute();
 </script>
 <template>
@@ -30,17 +36,17 @@ const route = useRoute();
             is eager to assist you. Schedule a complimentary consultation to
             discuss your needs.
           </p>
-          <div class="mb-5 lg:mb-0 py-5">
-            <NuxtLink
-              to="/contact-us"
-              class="w-32 h-40 lg:w-40 lg:h-10 xl:w-48 xl:h-12 bg-[#05FFF5] px-6 py-5 font-semibold text-black text-base md:text-2xl rounded-lg whitespace-nowrap"
-              aria-label="Contact Us"
+          <div class="mb-5 lg:mb-0 py-5" @click="setIsShowModal(!isShowModal)">
+            <div
+              class="w-fit bg-[#05FFF5] px-6 py-5 font-semibold text-black text-base md:text-2xl rounded-lg whitespace-nowrap cursor-pointer"
             >
+              <!-- <NuxtLink to="/contact-us" aria-label="Contact Us"> -->
               Contact Us
               <ClientOnly>
                 <fa class="text-black ml-1" :icon="['fa-solid', 'arrow-right']"
               /></ClientOnly>
-            </NuxtLink>
+              <!-- </NuxtLink> -->
+            </div>
           </div>
         </div>
 
