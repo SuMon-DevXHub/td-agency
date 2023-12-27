@@ -14,19 +14,19 @@ let windowWidth = ref("");
 //     facebookPlugin();
 //   }
 // };
-// onMounted(() => {
-//   facebookPlugin();
-//   windowWidth.value = window.innerWidth;
+onMounted(() => {
+  //   facebookPlugin();
+  windowWidth.value = window.innerWidth;
 
-//   window.addEventListener("resize", function (e) {
-//     windowWidth.value = window.innerWidth;
-//     facebookPlugin();
-//   });
+  window.addEventListener("resize", function (e) {
+    windowWidth.value = window.innerWidth;
+    // facebookPlugin();
+  });
 
-//   setTimeout(() => {
-//     facebookPlugin();
-//   }, 500);
-// });
+  //   setTimeout(() => {
+  //     facebookPlugin();
+  //   }, 500);
+});
 </script>
 
 <template>
@@ -44,42 +44,41 @@ let windowWidth = ref("");
 
       <div v-if="windowWidth > 600" class="relative">
         <!-- Facebook Chat Plugin -->
-        <div class="!fixed !bottom-[20px] !right-[24px] w-[60px] h-[60px]">
+        <!-- <div class="!fixed !bottom-[20px] !right-[24px] w-[60px] h-[60px]">
           <div id="fb-root w-full h-full"></div>
           <div id="fb-customer-chat" class="fb-customerchat"></div>
-        </div>
+        </div> -->
 
         <!-- WhatsApp US -->
         <NuxtLink
-          to="https://api.whatsapp.com/send?phone=8801912027073"
+          to="https://api.whatsapp.com/send?phone=8801318116458"
           target="_blank"
           aria-label="whatsapp"
         >
           <BaseIconWhatsApp
-            class="fixed bottom-[100px] right-[24px] w-[60px] h-[60px] z-10"
+            class="fixed bottom-[24px] right-[24px] w-[60px] h-[60px] z-10"
           />
         </NuxtLink>
       </div>
 
       <div v-else class="fixed w-full !bottom-0 z-10">
         <!-- Facebook Chat Plugin -->
-        <div
+        <!-- <div
           v-show="showChatOptions"
           class="!fixed !bottom-[85px] !right-[24px] w-[60px] h-[60px] z-[100]"
         >
           <div id="fb-root"></div>
           <div id="fb-customer-chat" class="fb-customerchat"></div>
-        </div>
+        </div> -->
 
         <!-- WhatsApp US -->
         <NuxtLink
-          to="https://api.whatsapp.com/send?phone=8801912027073"
+          to="https://api.whatsapp.com/send?phone=8801318116458"
           target="_blank"
           aria-label="whatsapp"
         >
           <BaseIconWhatsApp
-            v-if="showChatOptions"
-            class="absolute bottom-[160px] right-[24px] w-[60px] h-[60px] z-10"
+            class="absolute bottom-[24px] right-[24px] w-[60px] h-[60px] z-10"
           />
         </NuxtLink>
       </div>
