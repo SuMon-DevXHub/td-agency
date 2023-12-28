@@ -377,8 +377,8 @@ const generateBalls = () => {
                 <span class="font-semibold text-white">Privacy Policy</span>
               </p>
 
-              <p class="text-center mt-5">
-                Developed by<NuxtLink
+              <p class="text-center mt-5 text-xl">
+                Design and Developed by<NuxtLink
                   to="https://devxhub.com"
                   target="_blank"
                   class="cursor-pointer"
