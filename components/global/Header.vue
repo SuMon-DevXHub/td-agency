@@ -550,16 +550,19 @@ const setCurrentNestedMenu = (activeNested) => {
                   <fa class="!h-8 w-8" :icon="['fas', 'times']" />
                 </ClientOnly>
               </div>
-              <a
-                href="tel:+8801318-116458"
-                aria-label="Phone Number"
-                class="flex justify-center items-center space-x-2 px-[20px] pb-[14px] h-14 xl:h-[56px] border border-primary text-lg rounded-sm whitespace-nowrap"
-              >
-                <ClientOnly>
-                  <fa class="!h-6 w-6" :icon="['fas', 'phone']" />
-                </ClientOnly>
-                <span>+880 1318 116458</span>
-              </a>
+              <div class="text-center text-2xl flex flex-col space-y-6">
+                <h2>Call / Whatsapp</h2>
+                <a
+                  href="tel:+8801318-116458"
+                  aria-label="Phone Number"
+                  class="flex justify-center items-center space-x-2 px-[20px] pb-[14px] h-14 xl:h-[56px] border border-primary text-lg rounded-sm whitespace-nowrap"
+                >
+                  <ClientOnly>
+                    <fa class="!h-6 w-6" :icon="['fas', 'phone']" />
+                  </ClientOnly>
+                  <span>+880 1318 116458</span>
+                </a>
+              </div>
             </div>
             <div class="bg-gray-200 px-4 py-3 text-right hidden">
               <button

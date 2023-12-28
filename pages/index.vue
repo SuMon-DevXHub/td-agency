@@ -668,18 +668,19 @@ const works = ref([
           Schedule a consultation today, and let us propel your business into a
           success story! Act now to unleash your brand's full potential.
         </pp>
-        <NuxtLink
-          to="/contact-us"
-          aria-label="Contact us"
-          class="my-10 md:mt-26 md:mb-0 flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap"
+        <div
+          class="my-10 md:mt-26 md:mb-0 flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap cursor-pointer"
+          @click="setIsShowModal(!isShowModal)"
         >
+          <!-- <NuxtLink to="/contact-us" aria-label="Contact us" class=""> -->
           <span>Contact Us</span>
           <img
             src="/services/digital-mkt/chevron-right.svg"
             class="w-[20px] h-4 ml-4"
             alt="chevron"
           />
-        </NuxtLink>
+          <!-- </NuxtLink> -->
+        </div>
       </div>
     </section>
     <!-- End about section -->
@@ -947,18 +948,23 @@ const works = ref([
             Our best-in-class digital marketing agency impresses customers with
             impactful results and wows them with high-numbered statistics
           </p>
-          <NuxtLink
-            to="/contact-us"
-            aria-label="Contact us"
-            class="my-10 md:mt-26 md:mb-0 flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap"
+          <div
+            class="my-10 md:mt-26 md:mb-0 flex justify-center items-center w-[175px] px-[20px] py-[14px] h-14 xl:h-[56px] bg-primary font-bold text-[#1A1139] text-lg rounded-sm whitespace-nowrap cursor-pointer"
+            @click="setIsShowModal(!isShowModal)"
           >
+            <!-- <NuxtLink
+              to="/contact-us"
+              aria-label="Contact us"
+              >
+            -->
             <span>Contact Us</span>
             <img
               src="/services/digital-mkt/chevron-right.svg"
               class="w-[20px] h-4 ml-4"
               alt="chevron"
             />
-          </NuxtLink>
+            <!-- </NuxtLink> -->
+          </div>
         </div>
 
         <div
