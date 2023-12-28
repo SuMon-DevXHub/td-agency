@@ -340,7 +340,7 @@ const business = ref([
 const currentHoverValue = ref("");
 
 const redirect = () => {
-  router.push("/about-us");
+  router.push("/");
 };
 
 // Success Stories

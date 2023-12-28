@@ -124,7 +124,7 @@ const generateBalls = () => {
                   />
                 </NuxtLink>
                 <!-- flex flex-col space-y-2.5 md:space-y-0 -->
-                <div class="flex-col space-y-2.5 md:space-y-0 hidden">
+                <!-- <div class="flex-col space-y-2.5 md:space-y-0 hidden">
                   <div
                     class="flex justify-center md:justify-start items-center md:items-baseline"
                   >
@@ -211,14 +211,14 @@ const generateBalls = () => {
                       >Why choose us</a
                     >
                   </div>
-                  <!-- <div
-                    class="flex justify-center md:justify-start items-center md:items-baseline"
+                  <div
+                    class="flex justify-center md:justify-start items-center md:items-baseline hidden"
                   >
                     <NuxtLink class="footerInner" to="/appointment"
                       >Schedule a meeting</NuxtLink
                     >
-                  </div> -->
-                </div>
+                  </div>
+                </div> -->
 
                 <div class="text-[#E2DDF0] text-xl mt-9">
                   <address class="not-italic">

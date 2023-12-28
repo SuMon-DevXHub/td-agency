@@ -8,38 +8,38 @@ const { isMobileMenu, isShowModal } = storeToRefs(useHeaderStore());
 const { setMobileMenu, setIsShowModal } = useHeaderStore();
 const route = useRoute();
 
-const company = [
-  {
-    id: 1,
-    name: "About us",
-    path: "/about-us",
-    img: "/header/company/aboutUs.svg",
-  },
-  {
-    id: 2,
-    name: "Why Choose us",
-    path: "/why-choose-us",
-    img: "/header/company/whyChooseUs.svg",
-  },
-  {
-    id: 3,
-    name: "Career",
-    path: "/career",
-    img: "/header/company/career.svg",
-  },
-  {
-    id: 4,
-    name: "Blog",
-    path: "/blog",
-    img: "/header/company/blog.svg",
-  },
-  {
-    id: 5,
-    name: "Service Provider FAQs",
-    path: "/faq",
-    img: "/header/company/faq.svg",
-  },
-];
+// const company = [
+//   {
+//     id: 1,
+//     name: "About us",
+//     path: "/about-us",
+//     img: "/header/company/aboutUs.svg",
+//   },
+//   {
+//     id: 2,
+//     name: "Why Choose us",
+//     path: "/why-choose-us",
+//     img: "/header/company/whyChooseUs.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "Career",
+//     path: "/career",
+//     img: "/header/company/career.svg",
+//   },
+//   {
+//     id: 4,
+//     name: "Blog",
+//     path: "/blog",
+//     img: "/header/company/blog.svg",
+//   },
+//   {
+//     id: 5,
+//     name: "Service Provider FAQs",
+//     path: "/faq",
+//     img: "/header/company/faq.svg",
+//   },
+// ];
 const services = [
   {
     id: 1,
@@ -155,7 +155,7 @@ const setCurrentNestedMenu = (activeNested) => {
         <ul
           class="hidden lg:flex items-center ml-4 space-x-4 lgx:space-x-6 2xl:space-x-10 text-lg font-semibold text-white"
         >
-          <li class="dropdown hidden">
+          <!-- <li class="dropdown hidden">
             <p
               class="flex items-center space-x-4 cursor-pointer"
               @click="toggleSubMenu('company')"
@@ -185,7 +185,7 @@ const setCurrentNestedMenu = (activeNested) => {
                 </NuxtLink>
               </li>
             </ul>
-          </li>
+          </li> -->
 
           <li class="dropdown hidden">
             <p
@@ -299,7 +299,7 @@ const setCurrentNestedMenu = (activeNested) => {
               <!-- </NuxtLink> -->
             </div>
           </li>
-          <li class="hidden">
+          <!-- <li class="hidden">
             <NuxtLink to="/appointment" aria-label="Schedule a meeting"
               >Schedule a meeting</NuxtLink
             >
@@ -308,7 +308,7 @@ const setCurrentNestedMenu = (activeNested) => {
             <NuxtLink to="/contact-us" aria-label="Contact Us"
               >Contact Us</NuxtLink
             >
-          </li>
+          </li> -->
         </ul>
         <div class="lg:hidden">
           <img
@@ -497,7 +497,7 @@ const setCurrentNestedMenu = (activeNested) => {
                   >About</NuxtLink
                 >
               </li>
-              <li class="py-4 border-b-[0.5px] border-[#FDB21D] hidden">
+              <!-- <li class="py-4 border-b-[0.5px] border-[#FDB21D] hidden">
                 <NuxtLink
                   to="/appointment"
                   class="text-xl font-medium"
@@ -514,7 +514,7 @@ const setCurrentNestedMenu = (activeNested) => {
                   @click.native="setMobileMenu(false)"
                   >Contact Us</NuxtLink
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
